@@ -1,0 +1,23 @@
+Actividades:
+
+# 1: Conexion al Patagon:
+
+a - Configurar software SSH a usar con par de llaves publica/privada.
+b - Enviar llave publica a felipe.quezada01@outlook.com para agregarla al usuario que usaran durante la actividad
+c - Descargar el contenedor a utilizar e instalar las librerias
+d - Crear una copia personal de la carpeta Actividad (cp -r Actividad/ <tu_nombre>)
+
+# 2: 
+
+a - Leer y Ejecutar el programa tarea.py en su contenedor poniendo especial atencion en el tiempo de ejecucion.
+b - Cambiar parametros num_workers, pin_memory, prefetch_factor, batch size y ver como afectan en el tiempo.
+c - Ahora entrenar con una GPU y repetir el proceso. Como se ve afectado el tiempo de entrenamiento? qué hay de los resultados? ¿Por qué?
+d - Utilizar DataParallel para entrenar con 2 GPUs y repetir el proceso, Cuál es la diferencia con respecto a CPU, y una GPU?
+
+# 3: 
+
+a - Modificar el codigo para utilizar la libreria Datasets de Hugging Face y cargar el dataset tiny-imagenet https://huggingface.co/datasets/Maysee/tiny-imagenet
+b - Agregar cacheo de datos y al menos una tecnica de aumentacion de datos.
+c - Entrenar el modelo con parametros encontrados en la actividad anterior y utilizando DataParallel. Medir una aproximacion del tiempo de ejecucion.
+d - Entrenar el modelo con distributed data parallel ahora, y comparando los resultados con c). ¿Cuál es la diferencia? ¿Que hay sobre la complejidad en la implementacion?
+
