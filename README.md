@@ -1,5 +1,5 @@
 # HPC-IA-Tarea
-
+Slides: https://docs.google.com/presentation/d/1ElMAOekW-mTYNTv1AocXTHtABcB__4NvuLYBFeSvfnM/edit?usp=sharing
 ## Actividades:
 
 ### 1: Conexion al Patagon:
